@@ -302,8 +302,8 @@ if(!$_SESSION['user_email'])
 
 
 
-$conn=mysqli_connect("localhost","root","");
-mysqli_select_db($conn,"asm-cloud");
+$conn=mysqli_connect("remotemysql.com","YNJ4jhoenj","6TfrgZtvZh");
+mysqli_select_db($conn,"YNJ4jhoenj");
 
 $start=0;
 $limit=8;
